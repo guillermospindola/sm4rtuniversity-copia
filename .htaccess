@@ -1,0 +1,6 @@
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+# php_value upload_max_filesize 20M
+# php_value post_max_size 21M
+# php_value include_path '.;C:\xampp\php\PEAR;C:\xampp\htdocs\sm4rtuniversity\chamilo'
