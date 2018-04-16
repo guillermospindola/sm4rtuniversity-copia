@@ -1,53 +1,53 @@
 # Cache directories
 
-app/cache/*
-!app/cache/.gitkeep
+# app/cache/*
+# !app/cache/.gitkeep
 
-app/logs/*
-!app/logs/.gitkeep
+# app/logs/*
+#  !app/logs/.gitkeep
 
 # Chamilo configuration
-/app/config/parameters.yml
-/app/config/add_course.conf.php
-/app/config/auth.conf.php
-/app/config/course_info.conf.php
-/app/config/events.conf.php
-/app/config/mail.conf.php
-/app/config/portfolio.conf.php
-/app/config/profile.conf.php
-/app/config/configuration.php
+# /app/config/parameters.yml
+# /app/config/add_course.conf.php
+# /app/config/auth.conf.php
+# /app/config/course_info.conf.php
+# /app/config/events.conf.php
+# /app/config/mail.conf.php
+# /app/config/portfolio.conf.php
+# /app/config/profile.conf.php
+# /app/config/configuration.php
 
 # Courses
-app/courses/*
+# app/courses/*
 
 # Home
-app/home/*
+# app/home/*
 
 # Upload content
-app/upload/*
+# app/upload/*
 
-.php_cs.cache
+# .php_cs.cache
 
 # Logs and databases #
-*.log
+# *.log
 
 # IDE settings
-.idea
-.idea/*
-.idea/dictionaries/*
-.idea/cssxfire.xml
-
-*.orig
-nbproject/*
+# .idea
+# .idea/*
+# .idea/dictionaries/*
+# .idea/cssxfire.xml
+ 
+# *.orig
+# nbproject/*
 
 # Plugins config files
-plugin/bbb/config.vm.php
+# plugin/bbb/config.vm.php
 
 # Cron temp files
-main/cron/incoming/*
-plugin/vchamilo/templates/*
+# main/cron/incoming/*
+# plugin/vchamilo/templates/*
 
 # Stuff updated through composer - Remove just before release
-vendor
-web/assets/*
+# vendor
+# web/assets/*
 
